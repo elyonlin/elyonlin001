@@ -12,6 +12,7 @@
 
 @interface test04AppDelegate : UIResponder <UIApplicationDelegate>
 
+
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) test04ViewController *viewController;
