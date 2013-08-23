@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF02D4DB17C79CCF00991E66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF02D4DA17C79CCF00991E66 /* UIKit.framework */; };
+		AF02D4DD17C79CCF00991E66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF02D4DC17C79CCF00991E66 /* Foundation.framework */; };
+		AF02D4DF17C79CCF00991E66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF02D4DE17C79CCF00991E66 /* CoreGraphics.framework */; };
+		AF02D4E517C79CCF00991E66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF02D4E317C79CCF00991E66 /* InfoPlist.strings */; };
+		AF02D4E717C79CCF00991E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02D4E617C79CCF00991E66 /* main.m */; };
+		AF02D4EB17C79CCF00991E66 /* test04AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02D4EA17C79CCF00991E66 /* test04AppDelegate.m */; };
+		AF02D4ED17C79CCF00991E66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AF02D4EC17C79CCF00991E66 /* Default.png */; };
+		AF02D4EF17C79CCF00991E66 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF02D4EE17C79CCF00991E66 /* Default@2x.png */; };
+		AF02D4F117C79CCF00991E66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF02D4F017C79CCF00991E66 /* Default-568h@2x.png */; };
+		AF02D4F417C79CCF00991E66 /* test04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF02D4F317C79CCF00991E66 /* test04ViewController.m */; };
+		AF02D4F717C79CCF00991E66 /* test04ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF02D4F517C79CCF00991E66 /* test04ViewController_iPhone.xib */; };
+		AF02D4FA17C79CCF00991E66 /* test04ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF02D4F817C79CCF00991E66 /* test04ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF02D4D717C79CCE00991E66 /* elyonlin001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elyonlin001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF02D4DA17C79CCF00991E66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF02D4DC17C79CCF00991E66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF02D4DE17C79CCF00991E66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF02D4E217C79CCF00991E66 /* elyonlin001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "elyonlin001-Info.plist"; sourceTree = "<group>"; };
+		AF02D4E417C79CCF00991E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF02D4E617C79CCF00991E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF02D4E817C79CCF00991E66 /* elyonlin001-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "elyonlin001-Prefix.pch"; sourceTree = "<group>"; };
+		AF02D4E917C79CCF00991E66 /* test04AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test04AppDelegate.h; sourceTree = "<group>"; };
+		AF02D4EA17C79CCF00991E66 /* test04AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test04AppDelegate.m; sourceTree = "<group>"; };
+		AF02D4EC17C79CCF00991E66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AF02D4EE17C79CCF00991E66 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AF02D4F017C79CCF00991E66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AF02D4F217C79CCF00991E66 /* test04ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test04ViewController.h; sourceTree = "<group>"; };
+		AF02D4F317C79CCF00991E66 /* test04ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test04ViewController.m; sourceTree = "<group>"; };
+		AF02D4F617C79CCF00991E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/test04ViewController_iPhone.xib; sourceTree = "<group>"; };
+		AF02D4F917C79CCF00991E66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/test04ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF02D4D417C79CCE00991E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02D4DB17C79CCF00991E66 /* UIKit.framework in Frameworks */,
+				AF02D4DD17C79CCF00991E66 /* Foundation.framework in Frameworks */,
+				AF02D4DF17C79CCF00991E66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF02D4CE17C79CCE00991E66 = {
+			isa = PBXGroup;
+			children = (
+				AF02D4E017C79CCF00991E66 /* elyonlin001 */,
+				AF02D4D917C79CCE00991E66 /* Frameworks */,
+				AF02D4D817C79CCE00991E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF02D4D817C79CCE00991E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF02D4D717C79CCE00991E66 /* elyonlin001.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF02D4D917C79CCE00991E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF02D4DA17C79CCF00991E66 /* UIKit.framework */,
+				AF02D4DC17C79CCF00991E66 /* Foundation.framework */,
+				AF02D4DE17C79CCF00991E66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF02D4E017C79CCF00991E66 /* elyonlin001 */ = {
+			isa = PBXGroup;
+			children = (
+				AF02D4E917C79CCF00991E66 /* test04AppDelegate.h */,
+				AF02D4EA17C79CCF00991E66 /* test04AppDelegate.m */,
+				AF02D4F217C79CCF00991E66 /* test04ViewController.h */,
+				AF02D4F317C79CCF00991E66 /* test04ViewController.m */,
+				AF02D4F517C79CCF00991E66 /* test04ViewController_iPhone.xib */,
+				AF02D4F817C79CCF00991E66 /* test04ViewController_iPad.xib */,
+				AF02D4E117C79CCF00991E66 /* Supporting Files */,
+			);
+			path = elyonlin001;
+			sourceTree = "<group>";
+		};
+		AF02D4E117C79CCF00991E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF02D4E217C79CCF00991E66 /* elyonlin001-Info.plist */,
+				AF02D4E317C79CCF00991E66 /* InfoPlist.strings */,
+				AF02D4E617C79CCF00991E66 /* main.m */,
+				AF02D4E817C79CCF00991E66 /* elyonlin001-Prefix.pch */,
+				AF02D4EC17C79CCF00991E66 /* Default.png */,
+				AF02D4EE17C79CCF00991E66 /* Default@2x.png */,
+				AF02D4F017C79CCF00991E66 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF02D4D617C79CCE00991E66 /* elyonlin001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF02D4FD17C79CCF00991E66 /* Build configuration list for PBXNativeTarget "elyonlin001" */;
+			buildPhases = (
+				AF02D4D317C79CCE00991E66 /* Sources */,
+				AF02D4D417C79CCE00991E66 /* Frameworks */,
+				AF02D4D517C79CCE00991E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = elyonlin001;
+			productName = elyonlin001;
+			productReference = AF02D4D717C79CCE00991E66 /* elyonlin001.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF02D4CF17C79CCE00991E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = test04;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lin  david";
+			};
+			buildConfigurationList = AF02D4D217C79CCE00991E66 /* Build configuration list for PBXProject "elyonlin001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF02D4CE17C79CCE00991E66;
+			productRefGroup = AF02D4D817C79CCE00991E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF02D4D617C79CCE00991E66 /* elyonlin001 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF02D4D517C79CCE00991E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02D4E517C79CCF00991E66 /* InfoPlist.strings in Resources */,
+				AF02D4ED17C79CCF00991E66 /* Default.png in Resources */,
+				AF02D4EF17C79CCF00991E66 /* Default@2x.png in Resources */,
+				AF02D4F117C79CCF00991E66 /* Default-568h@2x.png in Resources */,
+				AF02D4F717C79CCF00991E66 /* test04ViewController_iPhone.xib in Resources */,
+				AF02D4FA17C79CCF00991E66 /* test04ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF02D4D317C79CCE00991E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF02D4E717C79CCF00991E66 /* main.m in Sources */,
+				AF02D4EB17C79CCF00991E66 /* test04AppDelegate.m in Sources */,
+				AF02D4F417C79CCF00991E66 /* test04ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF02D4E317C79CCF00991E66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF02D4E417C79CCF00991E66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF02D4F517C79CCF00991E66 /* test04ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF02D4F617C79CCF00991E66 /* en */,
+			);
+			name = test04ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		AF02D4F817C79CCF00991E66 /* test04ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF02D4F917C79CCF00991E66 /* en */,
+			);
+			name = test04ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF02D4FB17C79CCF00991E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF02D4FC17C79CCF00991E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF02D4FE17C79CCF00991E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elyonlin001/elyonlin001-Prefix.pch";
+				INFOPLIST_FILE = "elyonlin001/elyonlin001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF02D4FF17C79CCF00991E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "elyonlin001/elyonlin001-Prefix.pch";
+				INFOPLIST_FILE = "elyonlin001/elyonlin001-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF02D4D217C79CCE00991E66 /* Build configuration list for PBXProject "elyonlin001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF02D4FB17C79CCF00991E66 /* Debug */,
+				AF02D4FC17C79CCF00991E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF02D4FD17C79CCF00991E66 /* Build configuration list for PBXNativeTarget "elyonlin001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF02D4FE17C79CCF00991E66 /* Debug */,
+				AF02D4FF17C79CCF00991E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF02D4CF17C79CCE00991E66 /* Project object */;
+}
