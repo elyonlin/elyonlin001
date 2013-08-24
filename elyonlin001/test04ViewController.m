@@ -19,7 +19,7 @@
     [super viewDidLoad];
   //esting by david lin
     
-    /////
+    
     
 	// Do any additional setup after loading the view, typically from a nib.
 }
